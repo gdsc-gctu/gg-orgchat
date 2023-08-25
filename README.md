@@ -1,7 +1,8 @@
 <div align="center">
-  <a href="https://github.com/gdsc-gctu/gg-orgchat">
-  <img src="appimg.jpg" alt="Logo">
-</a>
+  <a href="https://github.com/gdsc-gctu/">
+  <img src="https://github.com/gdsc-gctu/home/blob/main/gdsclogo.png" alt="Logo" width="400">
+  </a>
+</div>
 
 # Project Title: College Org Chart Web App Enhancement
 
