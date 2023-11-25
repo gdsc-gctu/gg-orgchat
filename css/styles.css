@@ -10,7 +10,7 @@
 }
 body {
     width: 100%;
-    background: url(img/gctu.jpg);
+    background: url(../img/gctu.jpg);
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -129,10 +129,16 @@ hr
     opacity: 3;
     transform: translateY(0);
 }
-.img-circle .img-layer h5, p {
-    color: #ffffffb1;
-    font-size: 1em;
+.img-circle .img-layer h5 {
+    color: #fff;
+    font-size: 16px;
     font-weight: 500;
+}
+
+.img-circle .img-layer p {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 100;
 }
 
 .top-members {
@@ -144,10 +150,15 @@ hr
     gap: 10em;
 }
 .info{
+    font-size: 1em;
     width: 70%;
     text-align: left;
     margin: 0 auto;
     padding: 10px;
+}
+.info p {
+    color: #fff;
+    font-size: 1em;
 }
 
 .members {
@@ -155,6 +166,19 @@ hr
     justify-content: space-evenly;
     gap: 3em;
     padding: 3em;
+}
+
+.mmember0{
+    width: 300px;
+    height: auto;
+}
+.mmember1{
+    width: 250px;
+    height: auto;
+}
+.mmember2{
+    width: 250px;
+    height: auto;
 }
 
 /*-- MEDIA QUERIES --*/
@@ -190,7 +214,6 @@ hr
     .top-members {
         gap: 70px;
     }
-
 }
 
 @media (max-width: 1200px){
@@ -247,7 +270,7 @@ hr
     .img-circle 
     .img-layer h5, 
     p {
-        font-size: .7em;
+        font-size: 1em;
     }
     .top-members {
         display: flex;
